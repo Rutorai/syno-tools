@@ -3,7 +3,7 @@
 import requests, sys, json, os, tarfile, zipfile, shutil
 
 # The DSM product name to download packages for
-DSM_MODEL = "DS214"
+DSM_MODEL = "DS3615xs"
 
 # The URL to use to download packages
 DOWNLOAD_URL = "https://www.synology.com/api/support/findDownloadInfo?lang=fr-fr&product="+DSM_MODEL
